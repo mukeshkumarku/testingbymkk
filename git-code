@@ -1,0 +1,10 @@
+$ git config --global user.name "[name]"
+$ git config --global user.name "[mukesh]"
+
+$ git config --global user.email "[email address]"
+$ git config --global user.email "[mukesh.ssvm@gmail.com]"
+
+
+
+bash: $: command not found
+C:\Users\mukes\AppData\Local\Programs\Microsoft VS Code\bin

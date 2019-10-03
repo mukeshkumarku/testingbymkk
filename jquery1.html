@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jquery testing by me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <!-- <script src='main.js'></script> -->
+</head>
+
+<body>
+
+    <p class='odd'>this is my body p1 </p>
+    <p id='demo'>this is my body p2 </p>
+    <p class='odd'>this is my body p3 </p>
+    <p>this is my body p4 </p>
+	<p class='hiddenf'>i am going to hide body para... </p>
+    <p id='test'>i am going to hide body para... </p>
+
+
+</body>
+<script src='js/jquery-3.4.1.min.js'></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+<script>
+    $(document).ready(function(){
+	console.log("we are using jquery");
+	$('.hiddenf').click(function(){
+	$('#test').hide();
+	
+	});
+
+    });
+
+
+
+
+
+});
+
+
+
+</script>
+
+</html>
